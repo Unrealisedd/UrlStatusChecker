@@ -45,8 +45,13 @@ python script.py -u https://www.example.com --output results.txt
 The script prints the status of each URL to the console with the following color coding:
 
 Green for 200 OK
+
 Blue for 301 Redirect
+
 Yellow for 404 Not Found
+
 Red for 403 Forbidden
+
 White for other status codes
+
 The script also saves the results to the specified output file.
