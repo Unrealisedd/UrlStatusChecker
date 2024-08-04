@@ -25,19 +25,19 @@ Command Line Options
 
 ## Examples
 Check a Single URL
-python script.py -u https://example.com/id=1
+`python script.py -u https://example.com/id=1`
 
 Check a Single URL with multiple Parameters
-python script.py -u "https://example.com/id=1&lan=en"
+`python script.py -u "https://example.com/id=1&lan=en"`
 
 Check Multiple URLs from a File
-python script.py -l urls.txt
+`python script.py -l urls.txt`
 
 Use a Random User-Agent
-python script.py -u https://www.example.com --random-agent
+`python script.py -u https://www.example.com --random-agent`
 
 Specify an Output File
-python script.py -u https://www.example.com --output results.txt
+`python script.py -u https://www.example.com --output results.txt`
 
 
 
